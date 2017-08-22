@@ -1,0 +1,77 @@
+ @media only screen and (max-width: 1023px) {
+   h1{
+	   font-size:26px;
+   }
+    h3{
+	   font-size:23px;
+   }
+   p{
+	   font-size:20px;
+   }
+ }
+ @media only screen and (max-width: 640px) {
+    h1{
+	   font-size:24px;
+   }
+    h3{
+	   font-size:21px;
+   }
+      p{
+	   font-size:16px;
+   }
+ }
+.menu{
+	background:#2d4452;
+}
+a.nav-link{
+	list-style: none;
+	color:white;
+}
+.main-item:hover{
+	background:#2a3f4d;
+	color:green;
+}
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(120,120,120,.5);
+  
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.grey {
+    background: #f2f2f2;
+}
+section{
+	margin:auto;
+}
+.spacing {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section1{
+	margin-top:60px;
+}
+.section1-text {
+    margin-right: 60px;
+}
+.footer{
+	background:#2d4452;
+	color:white;
+}
+.footer-text{
+	font-size: 0.8rem;
+}
+.footer-2{
+	text-alight:right;
+}
+.sosmed-logo{
+	margin-left:5px;
+	margin-right:5px;
+}
